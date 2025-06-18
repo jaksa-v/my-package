@@ -2,9 +2,9 @@
 
 namespace JaksaVlahovic\MyPackage;
 
+use JaksaVlahovic\MyPackage\Commands\MyPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JaksaVlahovic\MyPackage\Commands\MyPackageCommand;
 
 class MyPackageServiceProvider extends PackageServiceProvider
 {
